@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background: palevioletred;
+    width:100%;
+    height: 100vh;
+    border:3px solid white;
+}
+nav{
+    border: 2px solid white;
+    border-radius: 0;
+    border-width: 100%;
+    width: 100%;
+    background: skyblue;
+     text-align: right;
+}
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover{
+    font-size: 20px;
+    transition: 1s;
+}
+.merch{
+    margin:100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+img{
+    height:170px;
+    width: 170px;
+}
+.merchcont{
+    background: rgb(212, 107, 142);
+    border: 2px solid rgb(212, 107, 142);
+    border-width: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.merchcont h4{
+    color: black;
+ 
+}
+.merchcont1{
+    background: rgb(212, 107, 142);
+    border: 2px solid rgb(212, 107, 142);
+    border-width: 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.merchcont1 h4{
+    color: black;
+}
+.merchcont2{
+    background: rgb(212, 107, 142);
+    border: 2px solid rgb(212, 107, 142);
+    border-width: 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.merchcont:hover{
+    border-radius: 5px;
+    border-width: 20px;
+    transition: ease-in-out 0.5s;
+    img:hover{
+        height:180px;
+        width: 180px;
+        transition: ease-out 0.5s;
+    }
+}
+.merchcont1:hover{
+    border-radius: 5px;
+    border-width: 20px;
+    transition: ease-in-out 0.5s;
+    img:hover{
+        height:180px;
+        width: 180px;
+        transition: ease-out 0.5s;
+    }
+}
+.merchcont2:hover{
+    border-radius: 5px;
+    border-width: 20px;
+    transition: ease-in-out 0.5s;
+    img:hover{
+        height:180px;
+        width: 180px;
+        transition: ease-out 0.5s;
+    }
+}
+.merchcont3:hover{
+    border-radius: 5px;
+    border-width: 20px;
+    transition: ease-in-out 0.5s;
+    img:hover{
+        height:180px;
+        width: 180px;
+        transition: ease-out 0.5s;
+    }
+}
+.merchcont2 h4{
+    color: black;
+}
+.merchcont3{
+    background: rgb(212, 107, 142);
+    border: 2px solid rgb(212, 107, 142);
+    border-width: 10px;
+    margin: 10px;
+}
+.merchcont3 h4{
+    color: black;
+}
+.purchasebtn{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 9%;
+width: 135px;
+height: 30px;
+border-radius: 5px;
+margin-top: 5px;
+border-color: skyblue;
+background: skyblue;
+color: white;
+}
+.purchasebtn:hover{
+border-color: white;
+background: white;
+color: black;
+transition: 0.5s ease;
+cursor: pointer;
+}
